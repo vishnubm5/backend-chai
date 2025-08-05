@@ -1,8 +1,8 @@
-import mongoose,{Schema, Schema, Schema} from 'mongoose'
+import mongoose,{Schema} from 'mongoose'
 import bcrypt from 'bcrypt'
 import { JsonWebTokenError } from 'jsonwebtoken'
 
-const userSchema= new userSchema(
+const userSchema= new Schema(
     {
         username:
         {
